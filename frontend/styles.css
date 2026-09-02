@@ -1,0 +1,157 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  color: #222;
+}
+
+header {
+  background: #111827;
+  color: white;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0 0 15px;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  max-width: 1000px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+section {
+  background: white;
+  padding: 30px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+}
+
+button {
+  background: #2563eb;
+  color: white;
+
+  border: none;
+  border-radius: 8px;
+
+  padding: 12px 20px;
+
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+footer {
+  text-align: center;
+  padding: 30px;
+  background: #111827;
+  color: white;
+}
+img {
+  max-width: 100%;
+  border-radius: 12px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input {
+  padding: 12px;
+
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+#contacto {
+  max-width: 800px;
+  margin: 40px auto;
+}
+
+#contactForm {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#contactForm input,
+#buscar {
+  width: 100%;
+  padding: 12px;
+
+  border: 1px solid #ccc;
+  border-radius: 8px;
+
+  font-size: 16px;
+}
+
+.form-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.form-buttons button {
+  flex: 1;
+}
+
+#respuesta {
+  min-height: 24px;
+  font-weight: bold;
+}
+
+#buscar {
+  margin-bottom: 20px;
+}
+
+.contacto-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 18px;
+
+  background: white;
+
+  border: 1px solid #ddd;
+  border-radius: 10px;
+
+  margin-bottom: 12px;
+}
+
+.contacto-card h3 {
+  margin: 0 0 5px;
+}
+
+.contacto-card p {
+  margin: 0;
+}
+
+.contacto-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.contacto-actions button {
+  padding: 8px 14px;
+}
